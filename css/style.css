@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  padding: 0px !important;
+}
+
+header {
+  width: 100vw;
+}
+header .header-logo {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .header-logo .logo {
+  background-image: url("../assets/fotos/logo.png");
+  background-position: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */
