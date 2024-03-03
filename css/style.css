@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -8,7 +9,26 @@
   padding: 0px !important;
 }
 
+h1 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  font-style: normal;
+  color: #f1a2ea;
+  margin: 0px !important;
+}
+
+h2 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  font-style: normal;
+  color: #f1a2ea;
+  margin: 0px !important;
+}
+
 header {
+  position: fixed;
   width: 100vw;
 }
 header .header-logo {
@@ -24,6 +44,35 @@ header .header-logo .logo {
   background-repeat: no-repeat;
   width: 100px;
   height: 100px;
+}
+
+.principal {
+  position: fixed;
+  top: 25vh;
+  height: 75vh;
+  width: 100vw;
+  background-image: url("../assets/fotos/patada.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-frase {
+  height: 80vh;
+  width: 100vw;
+  background-color: white;
+  position: relative;
+  top: 95vh;
+  clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+}
+.section-frase .frase {
+  margin: 0px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-size: 120px;
+  font-style: normal;
+  color: #f1a2ea;
+  border-color: #f1a2ea;
 }
 
 /*# sourceMappingURL=style.css.map */
