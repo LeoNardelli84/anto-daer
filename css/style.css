@@ -125,6 +125,7 @@ header .header-logo .logo {
   flex-direction: column;
 }
 .links .redes .enlaces {
+  padding-left: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -141,6 +142,9 @@ header .header-logo .logo {
   background: linear-gradient(120deg, #ffadfa, #d992d3);
   box-shadow: 9px 9px 17px #cd8ac7, -9px -9px 17px #ffbaff;
 }
+.links .redes .enlaces i {
+  padding-right: 5px;
+}
 
 .footer-fixed {
   width: 100vw;
@@ -148,6 +152,19 @@ header .header-logo .logo {
   background-color: #f1a2ea;
   position: relative;
   top: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer-fixed .logo-footer {
+  background-image: url("../assets/fotos/logo.png");
+  width: 120px;
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  z-index: 1000;
 }
 
 /*# sourceMappingURL=style.css.map */
