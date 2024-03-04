@@ -1,8 +1,40 @@
 .links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
     position: relative;
-    top: 90vh;
+    top: 85vh;
     width: 100vw;
     height: 80vh;
     background-color: white;
     box-shadow: 0px -30px 28px 44px white;
+    .bienvenidos{
+        height: 100px;
+        width: 100vw;
+        padding: 25px;
+        p{
+            @include fuente(20px, 100, $color-primario);
+        };
+    }
+    .redes{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        .enlaces {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @include fuente(25px, 400, white);
+            width: 280px;
+            height: 60px;
+            //border-radius: 20px;
+            margin-bottom: 15px !important;
+            border-radius: 40px;
+            background: linear-gradient(120deg, #ffadfa, #d992d3);
+            box-shadow:  9px 9px 17px #cd8ac7,
+                         -9px -9px 17px #ffbaff;
+        }
+    }
 }

@@ -1,8 +1,8 @@
 .section-frase{
-    box-shadow: -2px -18px 33px 34px $color-primario;
+    box-shadow: -2px -18px 33px 34px white;
     height: 100%;
     width: 100vw;
-    background-color: $color-primario;
+    background-color: white;
     position: relative;
     top: 95vh;
     //clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
@@ -16,7 +16,7 @@
             font-weight: 400;
             font-size: 120px;
             font-style: normal;
-            color: white;
+            color: $color-primario;
              
         }
     }
